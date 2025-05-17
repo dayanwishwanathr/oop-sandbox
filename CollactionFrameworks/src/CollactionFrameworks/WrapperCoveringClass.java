@@ -6,7 +6,7 @@ public class WrapperCoveringClass {
 
 		int x = 10;
 		
-		Integer res = x; // AutoBoxing
+		Integer res = x; // Auto-Boxing
 		
 		System.out.println(res);
 		
