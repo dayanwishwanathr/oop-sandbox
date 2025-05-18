@@ -1,4 +1,4 @@
-package Genarics;
+package Generics;
 
 
 public class Stats <T extends Number> {

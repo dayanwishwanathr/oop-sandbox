@@ -1,4 +1,4 @@
-package Genarics;
+package Generics;
 
 import java.awt.Rectangle;
 import java.util.ArrayList;
