@@ -1,15 +1,14 @@
 package Generics;
 
-public class GenericMethod {
+public class GenericMethod <T> {
 
 	public static <T> void printData(T data) {
 		
-    	System.out.println("Data: " + data);
+    	System.out.println("Data: " +data+" : "+ data.getClass().getName());
     
     }
 	
-	
-	
+
 	public static <E> void printArray(E array[]) {
 		
 		for(E a : array) {
@@ -20,9 +19,9 @@ public class GenericMethod {
 	
 	    public static void main(String[] args) {
 	       
-//	    	printData(100);         // Integer
-//	        printData("Dayan");     // String
-//	        printData(5.5);         // Double
+	    	printData(100);         // Integer
+	        printData("Dayan");     // String
+	    	printData(5.5);         // Double
 	    
 	    	
 	    	Integer intArray [] = {12, 14, 51, 76};
