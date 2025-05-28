@@ -1,10 +1,10 @@
 package TheredsTest;
 
-public class MyThread1 extends Thread {
+public class MyThread1 implements Runnable {
 	
 	@Override
 	public void run() {
-		for(int i=1; i<=10; i++) {
+		for(int i=1; i<=5; i++) {
 			System.out.println("Child theread "+i);
 			
 			try {
